@@ -1,0 +1,11 @@
+sources:
+  - name: jaffle_shop
+    database: catalog_sa_mikewang  
+    schema: jaffle_shop  
+    tables:
+      - name: orders
+      - name: customers
+
+  - name: stripe
+    tables:
+      - name: payments
