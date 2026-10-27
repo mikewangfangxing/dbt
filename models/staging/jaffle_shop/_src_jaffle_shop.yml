@@ -7,5 +7,7 @@ sources:
       - name: customers
 
   - name: stripe
+    database: catalog_sa_mikewang  
+    schema: stripe 
     tables:
       - name: payments
